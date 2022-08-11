@@ -1,4 +1,4 @@
-# Online clothing shopping Web Application
+# Online Clothing Shopping Web Application
 
 - React web application designed to provide online clothes purchasing experience 
 
