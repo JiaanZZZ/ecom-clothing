@@ -68,6 +68,10 @@ const cartReducer = (state, action) => {
 const clearCartItem = (cartItems, cartItemToClear) =>
   cartItems.filter((cartItem) => cartItem.id !== cartItemToClear.id);
 
+
+
+
+
 export const CartContext = createContext({
   isCartOpen: false,
   setIsCartOpen: () => {},
@@ -78,6 +82,11 @@ export const CartContext = createContext({
   cartCount: 0,
   cartTotal: 0,
 });
+
+
+
+
+
 
 export const CartProvider = ({ children }) => {
   const [isCartOpen, setIsCartOpen] = useState(false);
